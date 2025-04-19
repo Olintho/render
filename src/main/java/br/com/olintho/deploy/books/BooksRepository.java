@@ -1,4 +1,4 @@
-package br.com.danieleleaoe.deploy.books;
+package br.com.olintho.deploy.books;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

@@ -1,4 +1,4 @@
-package br.com.danieleleaoe.deploy.books;
+package br.com.olintho.deploy.books;
 
 import java.util.List;
 
