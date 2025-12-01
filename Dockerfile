@@ -2,7 +2,7 @@ FROM ubuntu:latest AS build
 
 RUN apt-get update
 # RUN apt-get install openjdk-17-jdk -y
-RUN apt-get install eclipse-temurin:21 -y
+RUN apt-get install temurin:21-jdk -y
 COPY . .
 
 RUN apt-get install maven -y
