@@ -1,4 +1,4 @@
-FROM eclipse-temurin:17_35-jdk-alpine
+FROM eclipse-temurin:17_35-jdk-alpine:latest AS build
 RUN mkdir /opt/app
 
 #COPY target/deploy_render-1.0.0.jar /opt/app/app.jar
