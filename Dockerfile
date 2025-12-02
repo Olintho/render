@@ -1,4 +1,4 @@
-FROM eclipse-temurin:latest AS build
+FROM eclipse-temurin:latest 
 #RUN mkdir /opt/app
 
 COPY deploy_render-1.0.0.jar app.jar
