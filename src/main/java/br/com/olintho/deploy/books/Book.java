@@ -1,5 +1,7 @@
 package br.com.olintho.deploy.books;
 
+import java.io.Serializable;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -8,8 +10,11 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "books")
-public class Book {
+public class Book implements Serializable{
 
+	private static final long serialVersionUID = 1L;
+	
+	
 	// @GeneratedValue(generator = "UUID")
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -17,6 +22,20 @@ public class Book {
 	private String code;
 	private String description;
 	private String name;
+
+	
+	public Book() {
+	}
+	
+	public Book(String code, String description, String name) {
+		super();
+		this.code = code;
+		this.description = description;
+		this.name = name;
+	}
+
+
+
 
 	public Long getId() {
 		return id;
