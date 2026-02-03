@@ -1,6 +1,3 @@
-
--- Este arquivo não é lido no Deploy da aplicação
-
 INSERT INTO BOOKS (code, description, name) VALUES (300000, 'The book guide', 'Read the book');
 INSERT INTO BOOKS (code, description, name) VALUES (300001, 'Java Man, the definitive guide aboit java developers', 'Java Man');
 INSERT INTO BOOKS (code, description, name) VALUES (300002, 'scrito por uma das maiores referências da programação, Barry Burd, o Java Para Leigos, Tradução da 5ª Edição, traz informações atualizadas sobre linguagens de programação, o básico da programação', 'Java para leigos');
